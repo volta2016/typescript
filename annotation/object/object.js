@@ -6,13 +6,13 @@ var casa = {
     familia: {
         padre: "Charly",
         integrantes: 7
-    }
+    },
+    presentacion: ["hi", "from", "object casa"]
 };
-var calle = casa.calle, numero = casa.numero, guardia = casa.guardia, _a = casa.familia, padre = _a.padre, integrantes = _a.integrantes;
-console.log(calle, numero, guardia, padre, integrantes);
-console.log(casa);
+var calle = casa.calle, numero = casa.numero, guardia = casa.guardia, _a = casa.familia, padre = _a.padre, integrantes = _a.integrantes, presentacion = casa.presentacion;
+console.log(calle, numero, guardia, padre, integrantes, presentacion);
 //con type ts
-//initialize
+//initialize(in theory this is to declare in js)
 var home2 = {
     street: "New York",
     num: 22,

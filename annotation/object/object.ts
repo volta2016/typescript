@@ -7,6 +7,7 @@ let casa = {
 		padre: "Charly",
 		integrantes: 7,
 	},
+	presentacion: ["hi", "from", "object casa"],
 };
 
 const {
@@ -14,9 +15,10 @@ const {
 	numero,
 	guardia,
 	familia: { padre, integrantes },
+	presentacion,
 } = casa;
 
-console.log(calle, numero, guardia, padre, integrantes);
+console.log(calle, numero, guardia, padre, integrantes, presentacion);
 
 //con type ts
 //initialize(in theory this is to declare in js)
