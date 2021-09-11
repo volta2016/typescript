@@ -19,7 +19,7 @@ const {
 console.log(calle, numero, guardia, padre, integrantes);
 
 //con type ts
-//initialize
+//initialize(in theory this is to declare in js)
 let home2: {
 	street: string;
 	num: number;
