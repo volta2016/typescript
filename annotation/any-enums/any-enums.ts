@@ -5,3 +5,24 @@
 
 let severalThing: any[] = ["Cat", 3, -4.56, true, null, undefined];
 console.log(severalThing);
+
+enum monedas {
+	yen,
+	euro,
+	dolar,
+}
+enum animal {
+	anfibio,
+	ave,
+	pez,
+	reptil,
+	mamifero,
+}
+
+let gato = {
+	especie: "Comun",
+	edad: 7,
+	animal: animal.mamifero,
+};
+
+console.log(gato);
