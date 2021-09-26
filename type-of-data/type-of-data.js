@@ -14,3 +14,18 @@ function sumaDatos(num, num2) {
     return num + num2;
 }
 console.log(sumaDatos(3, 27));
+var numberOne;
+var data;
+var yes;
+var vacio;
+var nodefinido;
+numberOne = 1;
+data = "text";
+yes = true;
+vacio = null;
+nodefinido;
+console.log(numberOne, data, yes, vacio, nodefinido);
+function restarNumeros(numa, numb) {
+    return numa - numb;
+}
+console.log(restarNumeros(2, 5));

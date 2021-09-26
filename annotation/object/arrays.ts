@@ -15,7 +15,7 @@ cadena2 = ["Hi", "from", "array"];
 let mix: any[];
 let mix3: any[];
 
-let home1 = {
+let homeone = {
 	calle: "Broadway ",
 	numero: 2222,
 	guardia: false,
@@ -23,7 +23,7 @@ let home1 = {
 		padre: "Charly",
 		integrantes: 7,
 	},
-	presentacion: ["hi", "from", "object casa"],
+	presentacion: ["hi", "from", "object home1"],
 };
 
 let hometwo = {
@@ -41,7 +41,7 @@ mix = ["mix", "any", "primitive", true, 10];
 console.log(mix);
 
 //por inferencia
-let mix2 = ["mix2", "any2", "primitive2", false, 22, home1];
+let mix2 = ["mix2", "any2", "primitive2", false, 22, homeone];
 
-mix3 = [home1, hometwo];
+mix3 = [homeone, hometwo];
 console.log(mix3);

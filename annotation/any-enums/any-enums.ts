@@ -2,10 +2,12 @@
 //Any is used to basically skip typing.
 //Any es una variable de tipo any que puede contener datos de cualquier tipo, en cualquier momento
 //Se utiliza para saltarnos el tipado básicamente
+//rompe el tipado estático
 
 let severalThing: any[] = ["Cat", 3, -4.56, true, null, undefined];
 console.log(severalThing);
 
+//enumerado
 enum monedas {
 	yen,
 	euro,

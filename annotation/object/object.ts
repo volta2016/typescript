@@ -21,7 +21,7 @@ const {
 console.log(calle, numero, guardia, padre, integrantes, presentacion);
 
 //con type ts
-//initialize(in theory this is to declare in js)
+//Definiendo el tipo explícitamente: explicitly(in theory this is to initialize in js)
 let home2: {
 	street: string;
 	num: number;
@@ -42,3 +42,23 @@ let home2: {
 //initialize
 // home2.street = "new york update";
 console.log(home2);
+
+let home3: {
+	street: string;
+	num: number;
+	guard: boolean;
+	animals: {
+		cat: string;
+		numAnimals: number;
+	};
+} = {
+	street: "Bersalles",
+	num: 2222,
+	guard: true,
+	animals: {
+		cat: "Felix",
+		numAnimals: 4,
+	},
+};
+
+console.log(home3);

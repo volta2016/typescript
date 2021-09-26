@@ -1,3 +1,5 @@
+//tipos primitivo string > number > boolean > null > undefined
+
 // anotacion de tipo
 let home: string;
 let dia: number;

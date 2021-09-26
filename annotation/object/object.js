@@ -12,7 +12,7 @@ var casa = {
 var calle = casa.calle, numero = casa.numero, guardia = casa.guardia, _a = casa.familia, padre = _a.padre, integrantes = _a.integrantes, presentacion = casa.presentacion;
 console.log(calle, numero, guardia, padre, integrantes, presentacion);
 //con type ts
-//initialize(in theory this is to declare in js)
+//declarar - explicitly(in theory this is to declare in js)
 var home2 = {
     street: "New York",
     num: 22,
@@ -25,3 +25,13 @@ var home2 = {
 //initialize
 // home2.street = "new york update";
 console.log(home2);
+var home3 = {
+    street: "Bersalles",
+    num: 2222,
+    guard: true,
+    animals: {
+        cat: "Felix",
+        numAnimals: 4
+    }
+};
+console.log(home3);
