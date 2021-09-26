@@ -2,7 +2,7 @@
 
 let number: number;
 let cadena: string;
-let soyBolean: boolean;
+let soyBoolean: boolean;
 
 //type string
 cadena = "Hola mundo";
@@ -10,7 +10,7 @@ cadena = "Hola mundo";
 console.log(cadena);
 
 //type bolean
-soyBolean = true;
+soyBoolean = true;
 
 //type numeber > podemos usar valor negativos con decimales no da error
 number = -8.89;
