@@ -6,9 +6,9 @@
 
         let cadena = ['Hola','me', 'llamo', 'Juan']; --> Cuando el programa se ejecute detectará que es  un array de string, pero no lo definimos explícitamente.
 
-## notacion definiendo el type
+## notacion por type
 
-- Definiendo el tipo explícitamente:
+- Definiendo el type explícitamente:
 
 let cadena2:string[]:
 
