@@ -27,6 +27,7 @@ else {
     console.log("la suma es menor a 10");
 }
 //ternary
+//condition ? true : false;
 x + y >= 10
-    ? console.log("es mayor o igual que 10")
-    : console.log("es menor a 10");
+    ? console.log("La suma de x + y: es mayor o igual que 10")
+    : console.log("La suma de x + y: es menor a 10");

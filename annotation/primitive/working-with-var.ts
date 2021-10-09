@@ -1,10 +1,10 @@
 //tipos primitivo string > number > boolean > null > undefined
 
-// anotacion de tipo
+// notacion de tipo (definiendo el type explicitamente)
 let home: string;
 let dia: number;
 
-//inferencia de tipos
+//inferencia de tipos (le digo de que type va ser directamenete)
 let nameUser: "Kyo";
 
 // nameUser.toLocaleLowerCase();

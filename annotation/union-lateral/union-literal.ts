@@ -19,3 +19,4 @@ let felino: "gato"; //> realmente es un tipo no una cadena de texto
 //console.log(felino.toString()); //Esto va petar
 
 //felino="pantera" //no pedemos asignar ya que le estamos diciendo que el tipo de gato es gato
+//no se puede volver a inicializar
