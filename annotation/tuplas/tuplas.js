@@ -10,9 +10,3 @@ var chair4 = ["house", "green", 6, true];
 // let chair4: [string, string, number] = ["house", "green", 6];
 chair2[2] = 6;
 console.log(chair2, chair3, chair4);
-
-let array = ["hola", "me", "llamo", "kyo"];
-
-for (element of array) {
-	console.log(element);
-}
