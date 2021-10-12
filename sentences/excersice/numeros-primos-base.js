@@ -21,7 +21,7 @@ function esPrimo(numero) {
 	}
 
 	if (numero <= 1) {
-		throw Error("El argumento debe ser un numero entero positivo");
+		throw Error("El argumento debe ser un número entero positivo");
 	}
 
 	let raiz = Math.floor(Math.sqrt(numero)) + 1;
@@ -40,7 +40,7 @@ try {
 }
 
 try {
-	console.log(esPrimo(6)); //true
+	console.log(esPrimo(6)); //false
 } catch (e) {
 	console.log(`Error: ${e.message}`);
 }

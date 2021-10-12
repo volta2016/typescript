@@ -1,4 +1,9 @@
-/* Hacer un menu que nos devuelva o una opción u otra */
+/* Hacer un menu que nos devuelva o una opción u otra 
+
+Los números impares son aquellos números que no son múltiplos de 2, por lo tanto, un número 
+impar no es divisible entre 2. Un número impar no puede tener decimales.
+
+*/
 
 let option = 3;
 

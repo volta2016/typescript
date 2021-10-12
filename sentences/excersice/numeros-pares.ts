@@ -1,4 +1,4 @@
-/*Devolver los primeros numeros pares 
+/*Devolver los primeros números pares 
 1- Esto que nos va a decir cuando el resto es 0 el numero es par:
 if (j % 2 == 0) {}
 Cuando hay solo un sentencia lo puedo hacer sin llaves

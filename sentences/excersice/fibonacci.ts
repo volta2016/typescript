@@ -1,8 +1,8 @@
 //1) Hacer la serie de fibonacci
 
-/* - Debe tener un par de numeros para empezar por que el siguiente numero se obtiene >
-porque el siguiente numero se obtiene se la suma de los 2 anteriores.
-La suma de los 2 numeros anteriores siempre es lo que consiste la succesion de fibonacci*/
+/* - Debe tener un par de números para empezar por que el siguiente numero se obtiene >
+porque el siguiente número se obtiene se la suma de los 2 anteriores.
+La suma de los 2 números anteriores siempre es lo que consiste la succesion de fibonacci*/
 
 let vecesSuccesion = 15;
 
