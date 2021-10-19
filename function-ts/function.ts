@@ -13,7 +13,7 @@ function suma(x, y) {
 
 console.log(suma("3", "5")); //35
 
-//Ejemplo 2: podemos definir los type
+//Ejemplo 2: podemos definir los type - le vamos a decir que no retorne valores //de tipo nomber
 function sumaTwo(x: number, y: number): number {
 	console.log("function sumaTwo");
 
