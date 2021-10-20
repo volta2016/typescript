@@ -1,6 +1,6 @@
 # TypeScript desde 0
 
-[typescript](https://raw.githubusercontent.com/volta2016/typescript/main/cover/typescript-logo.jpg)
+![screenshot](https://raw.githubusercontent.com/volta2016/typescript/main/cover/typescript-logo.jpg)
 
 ## Qué es TypeScript
 En resumen, TypeScript se define como una especie de superset de JavaScript, cuyo resultado final es un código de JavaScript.
