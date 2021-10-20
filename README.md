@@ -35,11 +35,6 @@ Local install
 
 - node namefile.js
 
-
-
-
-![TypeScript]()
-
 ### Links TypeScript
 
 - Pagina oficial [TypeScript](https://www.typescriptlang.org/)
