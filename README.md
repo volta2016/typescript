@@ -1,5 +1,7 @@
 # TypeScript desde 0
 
+[typescript](https://raw.githubusercontent.com/volta2016/typescript/main/cover/typescript-logo.jpg)
+
 ## Qué es TypeScript
 En resumen, TypeScript se define como una especie de superset de JavaScript, cuyo resultado final es un código de JavaScript.
 
@@ -16,11 +18,10 @@ En resumen, TypeScript se define como una especie de superset de JavaScript, cuy
 ### Instalación de TypeScript a nivel local
 
 Puedes ocupar npm o yarn
-https://www.typescriptlang.org/download
 
 Local install
 
-[typescript](https://www.typescriptlang.org/download)
+
 
 - yarn add typescript --dev
 
