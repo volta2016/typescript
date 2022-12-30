@@ -1,4 +1,6 @@
 //array number
+//por inferencia (el propio motor de typescript le asigna un valor 
+//a estas variables)
 let num = [1, 2, 3, 5, 7];
 // console.log(num);
 
@@ -6,12 +8,16 @@ let num = [1, 2, 3, 5, 7];
 let cadena1 = ["Hi", "from", "array"];
 // console.log(cadena1);
 
+//acá los estamos definiendo como un array de string
 let cadena2: string[];
-cadena2 = ["Hi", "from", "array"];
+cadena2 = ["Hi", "from", "array"];//acá le estamos asignando valores
 
+//cadena2 = ["Hi", "from", "array", 2];//esto nos marcara un error
 // console.log(cadena2);
 
 //any primite type
+
+//podemos crear un array que si permita mezclar tipos
 let mix: any[];
 let mix3: any[];
 

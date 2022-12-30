@@ -1,4 +1,4 @@
-//inferencia
+//inferencia 
 //si al definir el objeto ya tienes claro los valores
 let casa = {
 	calle: "Broadway ",
