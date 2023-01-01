@@ -1,4 +1,8 @@
 //type of data
+// like a type of data pluss in typescript
+// you can define of manner very similar to an array
+
+//we have defined the type data of chair
 type dataChair = [string, string, number, boolean];
 
 //inferencia
