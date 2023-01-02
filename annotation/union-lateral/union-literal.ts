@@ -1,5 +1,5 @@
 //Union -> similar al tipo any pero mas acotado
-let numeroOrBoolean: number | boolean;
+let numeroOrBoolean: number | boolean;// -> union
 
 // other example
 // type mix = number | boolean;
@@ -13,7 +13,7 @@ console.log(numeroOrBoolean);
 
 //literla;
 //si definimos nuestra variable con : quiere decir que esta definiendo un tipo
-//gato que solo puede ser utlizado con este valor, es simplemente inicializarlo
+//de dato gato que solo puede ser utlizado con este valor, es simplemente inicializarlo
 //una vez
 let felino: "gato"; //> realmente es un tipo no una cadena de texto
 //console.log(felino.toString()); //Esto va petar

@@ -8,6 +8,8 @@ let severalThing: any[] = ["Cat", 3, -4.56, true, null, undefined];
 console.log(severalThing);
 
 //enumerado
+//enum para sacar diferentes tipos de datos
+//animal: animal.mamifero, -> accede a la posición 4
 enum monedas {
 	yen,
 	euro,
