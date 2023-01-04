@@ -1,7 +1,11 @@
 //switch
 //se suele utlizar para vereficar multiples valores
-//jecuta un conjunto de declaraciones para cada uno de estos valores
+//ejecuta un conjunto de declaraciones para cada uno de estos valores
 var day = 5;
+var num = 6;
+if (num) {
+    console.log(num);
+}
 switch (day) {
     case 1:
         console.log("Lunes");

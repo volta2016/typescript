@@ -1,8 +1,9 @@
 //switch
 //se suele utlizar para vereficar multiples valores
-//jecuta un conjunto de declaraciones para cada uno de estos valores
+//ejecuta un conjunto de declaraciones para cada uno de estos valores
 
 let day: number = 5;
+
 
 switch (day) {
 	case 1:

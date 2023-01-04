@@ -16,6 +16,7 @@
 // 	console.log("se ejecuta esto si es FALSE");
 // }
 
+//type of data
 let x: number = 5;
 let y: number = 4;
 
