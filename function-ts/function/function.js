@@ -10,14 +10,14 @@ function suma(x, y) {
     return x + y;
 }
 console.log(suma("3", "5")); //35
-//Ejemplo 2: podemos definir los type
+//Ejemplo 2: podemos definir los type - le vamos a decir que no retorne valores //de tipo nomber
 function sumaTwo(x, y) {
     console.log("function sumaTwo");
     return x + y;
 }
-console.log(sumaTwo(8, 6)); //35
-//Ejemplo  3: - Le vamos a deicir que nos devuelva un array de numeros
-function fibonacci(vecesSuccesion) {
+console.log(sumaTwo(8, 6));
+//Ejemplo  3: - Le vamos a deicir que retorne un array de números
+function fibonacci2(vecesSuccesion) {
     var numeros = [0, 1];
     var i = 2;
     console.log("function fibonacci");
@@ -27,8 +27,8 @@ function fibonacci(vecesSuccesion) {
     }
     return numeros;
 }
-fibonacci(15);
-//Ejemplo 4: si le pasamos parametro de entrada pasa el valor si no con
+fibonacci2(15);
+//Ejemplo 4: si le pasamos parametro de entrada pasa el valor, si no con
 //void no devuelve ningun valor
 // function sinRetornoNiParams(x: string): void {
 // 	console.log(x);

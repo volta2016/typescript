@@ -1,12 +1,17 @@
 //1) Hacer la serie de fibonacci
-/* - Debe tener un par de numeros para empezar por que el siguiente numero se obtiene >
-porque el siguiente numero se obtiene se la suma de los 2 anteriores.
-La suma de los 2 numeros anteriores siempre es lo que consiste la succesion de fibonacci*/
+//2) Devolver los primeros 100 numeros impares
+//3) Hacer un menu que nos devuelva una opción u otra
+/* - Debe tener un par de números para empezar
+porque el siguiente número se obtiene es la suma de los 2 anteriores.
+La suma de los 2 números anteriores siempre es lo que consiste la succesion de fibonacci*/
+//nos va a calcular este valor 15 veces
 var vecesSuccesion = 15;
+//numeros anteriores
 var numeros = [0, 1];
 var i = 2;
 while (i <= vecesSuccesion) {
     numeros[i] = numeros[i - 2] + numeros[i - 1];
+    // console.log(numeros);
     i++;
 }
 console.log(numeros);

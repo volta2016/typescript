@@ -15,6 +15,7 @@ let i = 2;
 
 while (i <= vecesSuccesion) {
 	numeros[i] = numeros[i - 2] + numeros[i - 1];
+	// console.log(numeros);
 	i++;
 }
 

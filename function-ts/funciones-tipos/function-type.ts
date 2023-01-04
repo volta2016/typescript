@@ -9,11 +9,14 @@ function otherFunction(x:number,y:number) {
 
 
 let functionMultiplicar = multiplicar;//a esto le podmos asignar el type multiplicar de esta forma tenemos nuestra funcion en una variable
-//nos hacer el mismo efecto como si llamaramos multiplicar 
+//nos hacer el mismo efecto como si llamaramos multiplicar
+//-> una tomando los datos por iferencia  
 
 //tipado estrictto
 //solo nos permite asignarle 2 parametros de entrada que sean number y ademas que tengan un parametro de entrada que sea number
 let functionMultiplicar2:(x: number, y:number) => number;
+//-> esta verifica que los valores tienen que ser de este tipo
+
 
 //si esta variable functionMultiplicar2 le asignamos un valor que no cumpla con esto si le asignamos la función multiplicar no hay problema por que comple con esto perfectamente pero vamos crear la function otherFunction no le ponemos que nos devuelva nada simplemente que haga la multiplicacion
 

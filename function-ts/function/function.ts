@@ -20,9 +20,10 @@ function sumaTwo(x: number, y: number): number {
 	return x + y;
 }
 
-console.log(sumaTwo(8, 6)); //35
 
-//Ejemplo  3: - Le vamos a deicir que nos devuelva un array de numeros
+console.log(sumaTwo(8, 6)); 
+
+//Ejemplo  3: - Le vamos a deicir que retorne un array de números
 function fibonacci2(vecesSuccesion: number): number[] {
 	let numeros = [0, 1];
 	let i = 2;
@@ -38,7 +39,7 @@ function fibonacci2(vecesSuccesion: number): number[] {
 
 fibonacci2(15);
 
-//Ejemplo 4: si le pasamos parametro de entrada pasa el valor si no con
+//Ejemplo 4: si le pasamos parametro de entrada pasa el valor, si no con
 //void no devuelve ningun valor
 
 // function sinRetornoNiParams(x: string): void {
