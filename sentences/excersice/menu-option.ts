@@ -5,7 +5,7 @@ impar no es divisible entre 2. Un número impar no puede tener decimales.
 
 */
 
-let option = 3;
+let option = 3;//se cumple la 3
 
 switch (option) {
 	case 1:

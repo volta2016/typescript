@@ -1,11 +1,15 @@
 //1) Hacer la serie de fibonacci
-
-/* - Debe tener un par de números para empezar por que el siguiente numero se obtiene >
-porque el siguiente número se obtiene se la suma de los 2 anteriores.
+//2) Devolver los primeros 100 numeros impares
+//3) Hacer un menu que nos devuelva una opción u otra
+/* - Debe tener un par de números para empezar 
+porque el siguiente número se obtiene es la suma de los 2 anteriores.
 La suma de los 2 números anteriores siempre es lo que consiste la succesion de fibonacci*/
 
+
+//nos va a calcular este valor 15 veces
 let vecesSuccesion = 15;
 
+//numeros anteriores
 let numeros = [0, 1];
 let i = 2;
 
