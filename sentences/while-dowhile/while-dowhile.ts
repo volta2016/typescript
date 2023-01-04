@@ -30,5 +30,9 @@ do {
 	i++;
 } while (i < 7);
 
+// el do while siempre se ejecuta una vez, se ekecuta la sentencia del do y luego se evalua la condición
+
+//i++ ___  i = i+1 esto es lo mismo
+
 //operadores aritmeticos
 //+,-,*,/,%
