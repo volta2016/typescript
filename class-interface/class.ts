@@ -1,4 +1,4 @@
-/*Una clase es una estructura definida que srive como molde para poder crear objetos. En este molde: podemos delcarar atributos que son las propiedades: string
+/*Una clase es una estructura definida que sirve como molde para poder crear objetos. En este molde: podemos delcarar atributos que son las propiedades: string
 boolean
 number
 otros objetos

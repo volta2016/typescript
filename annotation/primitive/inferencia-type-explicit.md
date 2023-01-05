@@ -13,3 +13,9 @@
 let cadena2:string[]:
 
 cadena2 = ['Hola','me', 'llamo', 'Pepe']; --> En este caso ya estamos indicando previamente que el array será de string. No lo detectará en tiempo de ejecución, ya hemos indicado el tipo de forma explicita al definir el array.
+
+## Definir dato en TS
+
+let mix: any[];
+
+Siempre que asignemos un tipo de datos vamos a usar dos puntos
