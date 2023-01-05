@@ -6,7 +6,7 @@ type Operacion=(valor1:number, valor2:number)=>number
 
 
 //En vez de definir varias funciones a este nivel. función suma + - *
-//definimos una función, que a la vez recibe otro parametro como funcion y 
+//definimos una función, que a la vez recibe otro parámetro como función y 
 //simplemente en la propiedad llamada se puede pasar lo que hace
 
 
