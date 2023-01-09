@@ -49,9 +49,9 @@ tenemos el check en runtime que sería esto -> throw new Error("Operation is not
 
 //podemos ocupar try catch
 
-try {
-console.log(calculator(7,2,"add"));
-console.log(calculator(7,0,"divide"));
-} catch(e) {
-  throw new Error("Something went wrong", e)
-}
+// try {
+// console.log(calculator(7,2,"add"));
+// console.log(calculator(7,0,"divide"));
+// } catch(e) {
+//   throw new Error("Something went wrong", e)
+// }
