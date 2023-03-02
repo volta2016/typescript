@@ -5,19 +5,19 @@
 //como no hemos definido constructor podemos usar el constructor implicitamente
 //vacío
 
-// const myObject {
-//   public texto: string;//con public es lo mismo
-//   constructor(s:string) {
-//     this.texto = s;
-//   }
+class myObject2 {
+  public texto: string;//con public es lo mismo
+  constructor(s:string) {
+    this.texto = s;
+  }
 
-//   public datos() {
-//     console.log(this.texto);
-//   }
-// }
+  public datos() {
+    console.log(this.texto);
+  }
+}
 
-// let aux = new myObject("Texto clase");
-// aux.texto
+let aux2 = new myObject2("Texto clase");
+aux2.texto
 
 //todo esto es equivalente a realizar esto:
 
@@ -58,16 +58,16 @@
 //otra forma de inicializar
 
 
-const myObject {
-  //con public es lo mismo
-  constructor(private texto: string;) {
-    // this.texto = s; sin necesidad de hacer esta asignación
-  }
+// const myObject {
+//   //con public es lo mismo
+//   constructor(private texto: string;) {
+//     // this.texto = s; sin necesidad de hacer esta asignación
+//   }
 
-  private datos() {
-    console.log(this.texto);
-  }
-}
+//   private datos() {
+//     console.log(this.texto);
+//   }
+// }
 
-let aux = new myObject("Texto clase");
-aux.texto
+// let aux = new myObject("Texto clase");
+// aux.texto
