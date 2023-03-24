@@ -18,22 +18,30 @@ class Child extends Father {
     this.edad = e;
   }
 
-  printEdad() {
+  printName() {
+    console.log("hola xxxxxxx ");
+  }
+
+  printAge() {
     console.log("Mi edad es " + this.edad);
   }
 }
 
 class Grandson extends Child {
-
+  printAge() {
+    console.log("3.14...");
+  }
 }
 
 let p = new Father("Drako");
 p.printName();
 let h = new Child("Kyo", 17);
-h.printEdad();
+h.printAge();
 h.printName();
 let granchild = new Grandson("Emi", 20); 
 granchild.printName();
+granchild.printAge();
+
 
 
 
