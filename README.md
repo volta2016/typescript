@@ -25,7 +25,7 @@ Local install
 - Luego ya posicionado dentro de nuestra carpeta y creado nuestro archivo o programa con typescript ejecutamos:
 
 ```bash
-npx tsc namefile.ts
+   namefile.ts
 ```
 
 - nos va devolver el archivo compilado con la extensión de .js
