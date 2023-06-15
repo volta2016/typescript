@@ -52,3 +52,15 @@ let data: string | null = null;: This line declares a variable named data with t
 let status: string | undefined;: This line declares a variable named status with the type annotation string | undefined. It means that status can hold values of type string or undefined. Unlike data, status is not initialized with any value explicitly, so its initial value will be undefined by default. This indicates that status is intended to store a string value, but it can also be left undefined.
 
 These are some of the basic types in TypeScript. There are additional advanced types and type modifiers available, allowing you to define more complex data structures and type relationships.
+
+In typescript you have to try to write the less type possible, if typescript can do it for us, let it do it.
+
+When it can infer a TypeScript type it shows you the methods available for that data type.
+
+Wha happen when type don´t know like infer ?
+
+```ts
+let a; // var a implicity has an "any", anything type of data
+```
+
+what we are telling it with any is much more than any data type
