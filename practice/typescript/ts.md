@@ -64,3 +64,16 @@ let a; // var a implicity has an "any", anything type of data
 ```
 
 what we are telling it with any is much more than any data type
+
+TS have inference of the type that return
+
+```js
+function saludar({ name, age }: { name: string, age: number }): number {
+  console.log(`hola ${name}, tiene ${age} años`);
+  return age;
+}
+
+saludar({ name: "Kyo", age: 2 });
+```
+
+//:Function is the any of the funtions
