@@ -91,3 +91,32 @@ const sumar = (a: number, b: number): number => {
 const restar: (a: number, b: number) => number = (a, b) => {
   return a - b
 }
+
+//never
+//will never give anything back, never going to finish the execution of the funtion
+function throwError(message: string): never {
+  if(message) throw new Error
+  throw new Error(message)
+  process.exit(1);
+}
+
+
+//void
+function logMessage(message: string): void {
+  console.log(message)
+
+  //return implicito -> whatever -> void -> return nothin
+}
+
+//inferencia fuunciones anonimas según el contexto
+const avengers = ["Spidey", "Hulk", "Avengers"]
+
+avengers.forEach(avenger => {
+  console.log(avenger.toUpperCase());
+})
+
+//is the same, also map an other methods of the array
+// avengers.forEach(function(avenger) {
+//   console.log(avenger.toUpperCase());
+// })
+
