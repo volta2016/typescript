@@ -18,7 +18,7 @@ function mostrarMensajes (tipoDeError) {
   }
 }
 
-//En typescript, lo mejor sería que usemos Enums
+//In typescript, it would be best if we use Enums
 //depending on how you make them they may compile to JavaScript code or not
 
 //code for TS

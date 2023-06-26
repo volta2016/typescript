@@ -59,3 +59,6 @@ const white: RGBTWO = [255, 255, 255]
 
 black.push(4)// we are breaking the contract
 
+
+
+
