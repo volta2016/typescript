@@ -189,3 +189,149 @@ const restar: (a: number, b: number) => number = (a, b) => {
   return a - b;
 };
 ```
+
+# resource
+
+[https://quicktype.io/](quicktype)
+
+# interface
+
+Instead we can use interface, to be very similar to type
+
+```tsx
+interface Heroe {
+  id: string;
+  name: string;
+  age: number;
+  saludar: () => void;
+}
+
+const hero: Heroe = {
+  id: "1",
+  name: "thor",
+  age: 1500,
+  saludar: () => {
+    console.log("hola");
+  },
+};
+```
+
+the inteface also can it to be nesting
+
+```tsx
+interface Producto {
+  id: number;
+  nombre: string;
+  precio: number;
+  quantity: number;
+}
+
+interface Shoes extends Producto {
+  // id: number
+  // nombre: string
+  // precio: number
+  // quantity: number
+  size: number;
+}
+
+interface CarritoDeCompras {
+  totalPrice: number;
+  productos: (Producto | Shoes)[];
+}
+
+const carrito: CarritoDeCompras = {
+  totalPrice: 100,
+  productos: [
+    {
+      id: 1,
+      nombre: "Producto 1",
+      precio: 100,
+      quantity: 1,
+      size: 5,
+    },
+  ],
+};
+```
+
+We have tow ways to indicate the interface
+
+```tsx
+// two ways to create a interface with function
+interface CarritoOps {
+  add: (product: Producto) => void,
+  remove: (id: number) => void,
+
+}
+
+interface CarritoOps {
+  clear: () => void
+}
+
+//we can see that is the two things, is not good
+const ops: CarritoOps = {
+  add: (product: Producto) => {},
+  remove: (id: number) => {},
+  clear: () => {}
+}
+
+
+interface CarritoDeCompras {
+  totalPrice: number,
+  productos: (Producto | Shoes)[]
+}
+
+const carrito: CarritoDeCompras = {
+  totalPrice: 100,
+  productos: [
+    {
+      id: 1,
+      nombre: "Producto 1",
+      precio: 100,
+      quantity: 1,
+      size: 5
+    }
+  ]
+}
+
+// You don´t doing this with the type
+type CarritoOps {
+  add: (product: Producto) => void,
+  remove: (id: number) => void,
+
+}
+
+type interface CarritoOps {
+  clear: () => void
+}
+```
+
+all interfaces are deleted when compiled to JavaScript
+
+the iterfaces don´t declare a primitive type
+you don´t create this with a inteface
+
+```js
+const RGB = [0, 0, 0];
+```
+
+an interface always be talk about an object, and a form
+
+```jsx
+type HeroId = `${number}-${string}`
+
+interface Hero {
+  id: HeroId
+  name: string
+  age: number
+}
+```
+
+Always trying use type, you don´t duplicate.
+
+## use
+
+For class and object use interface, need to define the form an object,
+mothod of an ppbject or the form of the class
+
+type for the alias of the primitive type, define tuplas, define unions and
+overload functions
