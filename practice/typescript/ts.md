@@ -335,3 +335,88 @@ mothod of an ppbject or the form of the class
 
 type for the alias of the primitive type, define tuplas, define unions and
 overload functions
+
+We have an issue
+
+```tsx
+interface Mario {
+  company: string;
+  nombre: string;
+  saltar: () => void;
+}
+
+interface Sonic {
+  company: string;
+  nombre: string;
+  correr: () => void;
+}
+
+type Personaje = Mario | Sonic;
+
+function jugar(personaje: Personaje) {
+  console.log(personaje.nombre);
+
+  // if (typeof personaje.correr === "function") {
+  //   personaje.correr()
+  // } does not work
+}
+```
+
+## type guard
+
+```tsx
+//type guard
+//le met think if personaje is Sonic
+//this function determine if it is sonic or not
+function checkedIsSonic(personaje: Personaje): personaje is Sonic {
+  return (personaje as Sonic).correr !== undefined;
+}
+
+//type guard avoid it
+function jugar(personaje: Personaje) {
+  if (checkedIsSonic(personaje)) {
+    personaje.correr();
+  }
+
+  personaje.saltar();
+}
+```
+
+## class
+
+private tiene cosas malas y buenas
+
+- lo bueno te puedes referir a ello sin necesidad de utlizar el hash, que también la propiedad
+  va ser totalmente privada
+- lo malo que este private powerScore: number no lo va transpilar, solo esta haciendo la comprobación
+  de forma estatica
+
+```tsx
+class Avenger {
+  readonly name: string;
+  private powerScore: number;
+  private readonly wonBattles: number = 0;
+  public age: number = 0; //by default
+  protected age: number = 0; //can you acces to class that heredity of this class
+  //you to don´t acces in instance but if in class
+  constructor(name: string, powerScore: number) {
+    this.name = name;
+    this.powerScore = powerScore;
+  }
+
+  get fullName() {
+    return `${this.name}, de poder ${this.powerScore}`;
+  }
+
+  set power(newPower: number) {
+    if (newPower <= 100) {
+      this.powerScore = newPower;
+    } else {
+      throw new Error("Power score cannot be more than 100");
+    }
+  }
+}
+
+const avengers = new Avenger("Spidey", 80);
+// avengers.name = "Hulk"
+```
